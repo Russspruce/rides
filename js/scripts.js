@@ -1,14 +1,13 @@
 $(document).ready(function() {
 
   var riderHeight = parseInt(prompt("Please enter your height in inches: "));
-  function between(x, min, max) {
-    return x >= min && x <= max;
-  }
-   if (riderHeight <=36) {
+
+
+   if (30 <= riderHeight && riderHeight <= 50) {
      $('.short').addClass("highlight");
-   } else if (riderHeight >= 64) {
+   } else if (64 <= riderHeight && riderHeight <= 88) {
      $('.tall').addClass("highlight");
-   } else if (37 <= riderHeight <= 63) {
+   } else if (51 <= riderHeight && riderHeight <= 63) {
      $('.average').addClass("highlight");
    } else {
      alert("Sorry, there are no rides you can take.");
