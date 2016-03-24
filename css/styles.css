@@ -1,0 +1,9 @@
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: yellow;
+}
